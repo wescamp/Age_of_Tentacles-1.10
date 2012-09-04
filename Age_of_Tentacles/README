@@ -1,0 +1,59 @@
+This addon adds some units into Battle for Wesnoth (tested with 1.10).
+
+Currently contains Plague Mosquitos, Giant Mosquitos, Venom Mosquitos, Giant Dragonflies, Shessinsaans and Dire Shessisaans.
+
+INSTALLATION
+
+Unpack archive into Wesnoth add-ons directory
+for 1.10 series it is ~/.local/share/wesnoth/1.10/data/add-ons
+
+CHANGELOG
+
+0.4.1 Giant Mosquito weakened a bit
+
+0.4.0 renamed again, added era configuration files, changed usage of few units
+
+0.3.2 changed description of infection
+
+0.3.1 added sound and visual effect to infection, venom mosquito effects slightly improved, added attack animations
+
+0.3.0 weapon special infection finally works as it should, thus all units are considered working
+
+0.2.2 fixed mistypes and added venom mosquito advancement, added mosquito animaion
+
+0.2.1 all planned units are now added, but infection doesn't work as intended yet
+
+0.2.0 addon renamed, three more units added
+
+0.1.8 archive release, before renaming
+
+0.1.7 animation and portrait improved, fixed missing image
+
+0.1.6 fixed translation, added portraits, added a movement frame
+
+0.1.5 added Russian translation, reorganized some strings
+
+0.1.4 somehow buggy, but at least works. Sounds changed, added more animations.
+
+0.1.3 added transparency animation, chameleon ability made less powerfull
+
+0.1.2 Tentacle animation improved
+
+0.1.1 added several animations and attacks, it's now complete unit, new unit removed
+
+0.0.2 added experimental unit with just one sprite
+
+0.0.1 first version, just adds unit with constant sprite without attacks
+
+
+COPYING
+
+This addon for Battle for Wesnoth inherits all GPL license permissions,
+and available under GNU GPL version 2 or (at your opinion) any later version.
+
+See exact license terms in Battle for Wesnoth directory
+( i.e. /usr/doc/wesnoth/COPYING )
+
+All new art from this addon is also available under CC-BY-SA license
+
+fangs-ant.png is taken from mainline campaign "Under the Burning Suns"
