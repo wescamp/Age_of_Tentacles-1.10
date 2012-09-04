@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: branch 1.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-04 18:45-0400\n"
+"PO-Revision-Date: 2012-09-04 18:45-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [era]: id=Age_of_Tentacles
+#: Age_of_Tentacles/eras/age_of_tentacles.cfg:5
+msgid "Age of Tentacles"
+msgstr ""
+
+#. [multiplayer_side]: id=saurrian_creatures, type=saurrian shessinsaan_dire
+#: Age_of_Tentacles/eras/age_of_tentacles.cfg:9
+msgid "Elements of nature"
+msgstr ""
+
+#. [multiplayer_side]: id=random_default
+#: Age_of_Tentacles/eras/age_of_tentacles.cfg:17
+msgid "Random Default"
+msgstr ""
+
+#. [multiplayer_side]: id=all_random
+#: Age_of_Tentacles/eras/age_of_tentacles.cfg:25
+msgid "Random"
+msgstr ""
+
+#. [hides]: id=chameleon
+#: Age_of_Tentacles/macros/abilities.cfg:88
+msgid "chameleon"
+msgstr ""
+
+#. [hides]: id=chameleon
+#: Age_of_Tentacles/macros/abilities.cfg:89
+msgid "female^chameleon"
+msgstr ""
+
+#. [hides]: id=chameleon
+#: Age_of_Tentacles/macros/abilities.cfg:90
+msgid ""
+"Chameleon:\n"
+"The unit can change its color like a chameleon.\n"
+"\n"
+"Enemy units cannot see this unit when it's standing on place, except if they "
+"have units next to it. Any enemy unit that first discovers this unit "
+"immediately loses all its remaining movement."
+msgstr ""
+
+#. [hides]: id=chameleon
+#: Age_of_Tentacles/macros/abilities.cfg:95
+msgid "Chameleon!"
+msgstr ""
+
+#. [plague]: id=infection, type={INFECTION_RESULT}
+#: Age_of_Tentacles/macros/abilities.cfg:148
+msgid "infection"
+msgstr ""
+
+#. [plague]: id=infection, type={INFECTION_RESULT}
+#: Age_of_Tentacles/macros/abilities.cfg:149
+msgid ""
+"Infection:\n"
+"This attack infects living targets. Infected units lose 8 HP every turn "
+"until the plague destroy their mind and body, turning them into walking "
+"mindless bodies."
+msgstr ""
+
+#. [lua]
+#: Age_of_Tentacles/macros/abilities.cfg:175
+msgid ""
+"infected: This unit is infected. It will lose 8 hp every turn and will be "
+"turned into zombie after death."
+msgstr ""
+
+#. [set_variable]
+#: Age_of_Tentacles/macros/abilities.cfg:270
+msgid "female^infected"
+msgstr ""
+
+#. [set_variable]
+#: Age_of_Tentacles/macros/abilities.cfg:276
+msgid "infected"
+msgstr ""
+
+#: Age_of_Tentacles/macros/special-notes.cfg:4
+msgid " This unit is able to change color of its skin, hiding from enemy."
+msgstr ""
+
+#: Age_of_Tentacles/macros/special-notes.cfg:7
+msgid ""
+" The units, infected by this unit will continually take damage until they "
+"lose all their hitpoints at which point, they get turned into walking "
+"corpses."
+msgstr ""
+
+#. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
+#: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:4
+msgid "Dire Shessinsaan"
+msgstr ""
+
+#. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
+#: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:30
+msgid ""
+"Shessinsaans are alien semi-sentient predatory reptiles with tentacles. As "
+"shessinsaans grow older, they became stronger and even more terrifying."
+msgstr ""
+
+#. [attack]: type=impact
+#: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:53
+#: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:52
+msgid "tentacle"
+msgstr ""
+
+#. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
+#: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:4
+msgid "Shessinsaan"
+msgstr ""
+
+#. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
+#: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:29
+msgid "Shessinsaans are alien semi-sentient predatory reptiles with tentacles."
+msgstr ""
+
+#. [race]: id=saurrian shessinsaan
+#: Age_of_Tentacles/units/units.cfg:5
+msgid "race^Shessinsaan"
+msgstr ""
+
+#. [race]: id=saurrian shessinsaan
+#: Age_of_Tentacles/units/units.cfg:6
+msgid "race+female^Shessinsaan"
+msgstr ""
+
+#. [race]: id=saurrian shessinsaan
+#: Age_of_Tentacles/units/units.cfg:7
+msgid "race+plural^Shessinsaans"
+msgstr ""
+
+#. [race]: id=saurrian insectoids
+#: Age_of_Tentacles/units/units.cfg:15
+msgid "race^Insectoid"
+msgstr ""
+
+#. [race]: id=saurrian insectoids
+#: Age_of_Tentacles/units/units.cfg:16
+msgid "race+female^Insectoid"
+msgstr ""
+
+#. [race]: id=saurrian insectoids
+#: Age_of_Tentacles/units/units.cfg:17
+msgid "race+plural^Insectoids"
+msgstr ""
