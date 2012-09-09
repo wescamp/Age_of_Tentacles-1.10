@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Age_of_Tentacles-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 20:56-0400\n"
+"POT-Creation-Date: 2012-09-08 20:07-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,71 @@ msgstr ""
 
 #: ./Age_of_Tentacles/macros/special-notes.cfg:7
 msgid " The units, infected by this unit will continually take damage until they lose all their hitpoints at which point, they get turned into walking corpses."
+msgstr ""
+
+#. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:4
+msgid "Giant Dragonfly"
+msgstr ""
+
+#. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:19
+msgid "Giant dragonflies are living relics of ancient ages, when insectoids ruled the land, just a shadow of their former greatness"
+msgstr ""
+
+#. [attack]: type=blade
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:50
+msgid "mandibles"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:4
+msgid "Giant Mosquito"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:21
+msgid "Some mosquitos in these tropical swamps grow to giant sizes and may be quite dangerous for weak units if there are too many of them."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:52 ./Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:47 ./Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:46
+msgid "proboscis"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:4
+msgid "Plague Mosquito"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:19
+msgid "When venomous mosquitos drink blood of infected animals, they turn into plague mosquitos, possibly the worst thing, you may encounter in the tropical swamps. Infection they carry is very hard to cure and can turn its victim into a walking mindless body in a matter of few days."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:61
+msgid "infected spike"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:4
+msgid "Venom Mosquito"
+msgstr ""
+
+#. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
+#: ./Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:18
+msgid "These venomous mosquitos are disaster for ones who dare to enter swamps where they live. They are not mosquitos actually, but similar insects, learned to shoot chitinous spikes throught their proboscises. They can either poison their victims, or drink blood of them."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:59
+msgid "venom injection"
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:72
+msgid "venom spike"
 msgstr ""
 
 #. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
