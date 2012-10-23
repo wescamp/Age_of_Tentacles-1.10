@@ -3,44 +3,45 @@ msgstr ""
 "Project-Id-Version: Age_of_Tentacles-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-08 20:07-0400\n"
-"PO-Revision-Date: 2012-09-04 18:45-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-10-21 21:56+0100\n"
+"Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.3\n"
 
 #. [era]: id=Age_of_Tentacles
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:5
 msgid "Age of Tentacles"
-msgstr ""
+msgstr "Csáposok kora"
 
 #. [multiplayer_side]: id=saurrian_creatures, type=saurrian shessinsaan_dire
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:9
 msgid "Elements of nature"
-msgstr ""
+msgstr "A természet lényei"
 
 #. [multiplayer_side]: id=random_default
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:17
 msgid "Random Default"
-msgstr ""
+msgstr "Alapértelmezett beállítások"
 
 #. [multiplayer_side]: id=all_random
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:25
 msgid "Random"
-msgstr ""
+msgstr "Véletlen"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:88
 msgid "chameleon"
-msgstr ""
+msgstr "kaméleon"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:89
 msgid "female^chameleon"
-msgstr ""
+msgstr "nőstény kaméleon"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:90
@@ -52,16 +53,23 @@ msgid ""
 "have units next to it. Any enemy unit that first discovers this unit "
 "immediately loses all its remaining movement."
 msgstr ""
+"Kaméleon:\n"
+"Az egység képes úgy változtatni a színét, mint egy kaméleon.\n"
+"\n"
+"Megjegyzés: ez az egység a rajtaütés képességével láthatatlan az ellenség "
+"számára, hacsak nem áll közvetlenül mellette, vagy nem fedi fel magát azzal, "
+"hogy támad. Az az egység, amely először fedi fel, azonnal elveszti a "
+"hátralévő lépéseit."
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:95
 msgid "Chameleon!"
-msgstr ""
+msgstr "Egy kaméleon!"
 
 #. [plague]: id=infection, type={INFECTION_RESULT}
 #: Age_of_Tentacles/macros/abilities.cfg:148
 msgid "infection"
-msgstr ""
+msgstr "ragály"
 
 #. [plague]: id=infection, type={INFECTION_RESULT}
 #: Age_of_Tentacles/macros/abilities.cfg:149
@@ -71,6 +79,10 @@ msgid ""
 "until the plague destroy their mind and body, turning them into walking "
 "mindless bodies."
 msgstr ""
+"Ragály:\n"
+"Ez a támadás megfertőzi az élő ellenfeleket. Egy fertőzött egység minden "
+"körben 8 ÉP-t veszít, amíg a ragály el nem pusztítja az elméjüket és a "
+"testüket, eleven testekké változtatva őket."
 
 #. [lua]
 #: Age_of_Tentacles/macros/abilities.cfg:175
@@ -78,49 +90,59 @@ msgid ""
 "infected: This unit is infected. It will lose 8 hp every turn and will be "
 "turned into zombie after death."
 msgstr ""
+"Fertőzött: ez az egység megfertőződött. Minden körben 8 ÉP-t veszít, amíg "
+"végül meghal és eleven testté válik."
 
 #. [set_variable]
 #: Age_of_Tentacles/macros/abilities.cfg:270
 msgid "female^infected"
-msgstr ""
+msgstr "fertőzött"
 
 #. [set_variable]
 #: Age_of_Tentacles/macros/abilities.cfg:276
 msgid "infected"
-msgstr ""
+msgstr "fertőzött"
 
 #: Age_of_Tentacles/macros/special-notes.cfg:4
 msgid " This unit is able to change color of its skin, hiding from enemy."
 msgstr ""
+"Ez az egység képes megváltoztatni a színét, így rejtőzve el az ellenség elől."
 
+# unnecessary space in original text
 #: Age_of_Tentacles/macros/special-notes.cfg:7
 msgid ""
 " The units, infected by this unit will continually take damage until they "
 "lose all their hitpoints at which point, they get turned into walking "
 "corpses."
 msgstr ""
+"Azok az ellenségek, amelyek ettől az egységtől fertőződtek meg, folyamatosan "
+"sebződni fognak, amíg el nem vesztik minden életerejüket és átváltoznak "
+"eleven testekké."
 
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:4
 msgid "Giant Dragonfly"
-msgstr ""
+msgstr "Óriás szitakötő"
 
+# missing dot in original text
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:19
 msgid ""
 "Giant dragonflies are living relics of ancient ages, when insectoids ruled "
 "the land, just a shadow of their former greatness"
 msgstr ""
+"Az óriás szitakötők élő kövületek abból a korból, amikor rovarok uralták a "
+"földet, de ma már csak árnyékaik korábbi nagyságuknak."
 
 #. [attack]: type=blade
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:50
 msgid "mandibles"
-msgstr ""
+msgstr "csáprágó"
 
 #. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:4
 msgid "Giant Mosquito"
-msgstr ""
+msgstr "Óriás moszkító"
 
 #. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:21
@@ -128,18 +150,20 @@ msgid ""
 "Some mosquitos in these tropical swamps grow to giant sizes and may be quite "
 "dangerous for weak units if there are too many of them."
 msgstr ""
+"Néhány moszkító ezekben a trópusi mocsarakban óriási méretűre nőtt és nagy "
+"számban támadva komoly veszélyt jelenthetnek a gyenge egységekre."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:52
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:47
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:46
 msgid "proboscis"
-msgstr ""
+msgstr "szívószáj"
 
 #. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:4
 msgid "Plague Mosquito"
-msgstr ""
+msgstr "Pestis moszkító"
 
 #. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:19
@@ -149,16 +173,20 @@ msgid ""
 "tropical swamps. Infection they carry is very hard to cure and can turn its "
 "victim into a walking mindless body in a matter of few days."
 msgstr ""
+"Amikor a mérgező moszkítók fertőzött vérű állatok vérét szívják, pestis-"
+"moszkítókká válnak, talán a legszörnyűbb lénnyé, amivel találkozhatsz a "
+"trópusi mocsarakban. A fertőzés, amit hordoznak, nem gyógyítható és az "
+"áldozatok pár nap alatt agyatlan eleven testekké válnak."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:61
 msgid "infected spike"
-msgstr ""
+msgstr "mérgezett tüske"
 
 #. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:4
 msgid "Venom Mosquito"
-msgstr ""
+msgstr "Mérges moszkító"
 
 #. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:18
@@ -168,21 +196,25 @@ msgid ""
 "learned to shoot chitinous spikes throught their proboscises. They can "
 "either poison their victims, or drink blood of them."
 msgstr ""
+"Ezek a mérgező moszkítók katasztrófálisak azok számára, akik be mernek lépni "
+"a mocsarakba, ahol élnek. Tulajdonképpen nem moszkítók, de szintén rovarok. "
+"Megtanulták, hogyan lőhetnek kitintüskéket a szívószájukon át. Meg is tudják "
+"mérgezni az áldozataikat, vagy vért szívnak tőlük."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:59
 msgid "venom injection"
-msgstr ""
+msgstr "méreg injekció"
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:72
 msgid "venom spike"
-msgstr ""
+msgstr "mérgező tüske"
 
 #. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:4
 msgid "Dire Shessinsaan"
-msgstr ""
+msgstr "Irtózatos Shessinsaan"
 
 #. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:30
@@ -190,49 +222,51 @@ msgid ""
 "Shessinsaans are alien semi-sentient predatory reptiles with tentacles. As "
 "shessinsaans grow older, they became stronger and even more terrifying."
 msgstr ""
+"A Shessinsaanok idegen rovarszerű lények, tulajdonképpen ragadozó hüllők "
+"csápokkal. Ahogy idősebbé válnak, erősebbek és még szörnyűbbek lesznek."
 
 #. [attack]: type=impact
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:53
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:52
 msgid "tentacle"
-msgstr ""
+msgstr "csáp"
 
 #. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:4
 msgid "Shessinsaan"
-msgstr ""
+msgstr "Shessinsaan"
 
 #. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:29
 msgid "Shessinsaans are alien semi-sentient predatory reptiles with tentacles."
-msgstr ""
+msgstr "A Shessinsaanok idegen rovarszerű lények, csápos ragadozó hüllők."
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:5
 msgid "race^Shessinsaan"
-msgstr ""
+msgstr "Shessinsaan"
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:6
 msgid "race+female^Shessinsaan"
-msgstr ""
+msgstr "Shessinsaan"
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:7
 msgid "race+plural^Shessinsaans"
-msgstr ""
+msgstr "Shessinsaanok"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:15
 msgid "race^Insectoid"
-msgstr ""
+msgstr "Rovarszerű"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:16
 msgid "race+female^Insectoid"
-msgstr ""
+msgstr "Rovarszerű"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:17
 msgid "race+plural^Insectoids"
-msgstr ""
+msgstr "Rovarszerűek"
