@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Age_of_Tentacles-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-08 20:07-0400\n"
-"PO-Revision-Date: 2012-10-21 21:56+0100\n"
+"PO-Revision-Date: 2012-10-25 22:51+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -108,23 +108,21 @@ msgid " This unit is able to change color of its skin, hiding from enemy."
 msgstr ""
 "Ez az egység képes megváltoztatni a színét, így rejtőzve el az ellenség elől."
 
-# unnecessary space in original text
 #: Age_of_Tentacles/macros/special-notes.cfg:7
 msgid ""
 " The units, infected by this unit will continually take damage until they "
 "lose all their hitpoints at which point, they get turned into walking "
 "corpses."
 msgstr ""
-"Azok az ellenségek, amelyek ettől az egységtől fertőződtek meg, folyamatosan "
-"sebződni fognak, amíg el nem vesztik minden életerejüket és átváltoznak "
-"eleven testekké."
+" Azok az ellenségek, amelyek ettől az egységtől fertőződtek meg, "
+"folyamatosan sebződni fognak, amíg el nem vesztik minden életerejüket és "
+"átváltoznak eleven testekké."
 
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:4
 msgid "Giant Dragonfly"
 msgstr "Óriás szitakötő"
 
-# missing dot in original text
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:19
 msgid ""
