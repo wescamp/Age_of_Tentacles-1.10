@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Age_of_Tentacles-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-08 20:07-0400\n"
-"PO-Revision-Date: 2012-09-04 18:45-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-11-01 11:59+0200\n"
+"Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
 "Language-Team: none\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -12,36 +12,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. [era]: id=Age_of_Tentacles
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:5
 msgid "Age of Tentacles"
-msgstr ""
+msgstr "Вік Щупалець"
 
 #. [multiplayer_side]: id=saurrian_creatures, type=saurrian shessinsaan_dire
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:9
 msgid "Elements of nature"
-msgstr ""
+msgstr "Елементи природи"
 
 #. [multiplayer_side]: id=random_default
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:17
 msgid "Random Default"
-msgstr ""
+msgstr "Випадково Типово"
 
 #. [multiplayer_side]: id=all_random
 #: Age_of_Tentacles/eras/age_of_tentacles.cfg:25
 msgid "Random"
-msgstr ""
+msgstr "Випадково"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:88
 msgid "chameleon"
-msgstr ""
+msgstr "хамелеон"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:89
 msgid "female^chameleon"
-msgstr ""
+msgstr "хамелеонка"
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:90
@@ -53,16 +54,22 @@ msgid ""
 "have units next to it. Any enemy unit that first discovers this unit "
 "immediately loses all its remaining movement."
 msgstr ""
+"Хамелеон:\n"
+"Боєць може змінювати свій колір, як хамелеон.\n"
+"\n"
+"Ворожі бійці не можуть бачити цього бійця, за винятком, якщо вони "
+"зняходяться поряд з ним. Ворог, який першим виявить цього бійця, відразу "
+"втрачає всі невитрачені рухи."
 
 #. [hides]: id=chameleon
 #: Age_of_Tentacles/macros/abilities.cfg:95
 msgid "Chameleon!"
-msgstr ""
+msgstr "Хамелеон!"
 
 #. [plague]: id=infection, type={INFECTION_RESULT}
 #: Age_of_Tentacles/macros/abilities.cfg:148
 msgid "infection"
-msgstr ""
+msgstr "Інфекція"
 
 #. [plague]: id=infection, type={INFECTION_RESULT}
 #: Age_of_Tentacles/macros/abilities.cfg:149
@@ -72,6 +79,10 @@ msgid ""
 "until the plague destroy their mind and body, turning them into walking "
 "mindless bodies."
 msgstr ""
+"Інфекція:\n"
+"Ця атака інфікує живі цілі. Інфіковані бійці втрачають 8 ЗД кожного ходу, "
+"поки чума не знищить їх розум і тіло, і тоді вони перетворяться на тупих "
+"ходячих трупів."
 
 #. [lua]
 #: Age_of_Tentacles/macros/abilities.cfg:175
@@ -79,20 +90,22 @@ msgid ""
 "infected: This unit is infected. It will lose 8 hp every turn and will be "
 "turned into zombie after death."
 msgstr ""
+"інфікований: Цей боєць інфікований. Він втрачатиме 8 зд кожен хід і буде "
+"перетворений на зомбі після смерті."
 
 #. [set_variable]
 #: Age_of_Tentacles/macros/abilities.cfg:270
 msgid "female^infected"
-msgstr ""
+msgstr "інфікована"
 
 #. [set_variable]
 #: Age_of_Tentacles/macros/abilities.cfg:276
 msgid "infected"
-msgstr ""
+msgstr "інфікований"
 
 #: Age_of_Tentacles/macros/special-notes.cfg:4
 msgid " This unit is able to change color of its skin, hiding from enemy."
-msgstr ""
+msgstr " Цей боєць здатний змінювати колір шкіри, приховуючись від ворога."
 
 #: Age_of_Tentacles/macros/special-notes.cfg:7
 msgid ""
@@ -100,11 +113,13 @@ msgid ""
 "lose all their hitpoints at which point, they get turned into walking "
 "corpses."
 msgstr ""
+" Бійці, інфіковані цим бійцем, будуть безупинно отримувати ушкодження поки "
+"вони не втратять усе здоров'я, і тоді перетворяться на ходячих трупів."
 
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:4
 msgid "Giant Dragonfly"
-msgstr ""
+msgstr "Гігантська бабка"
 
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:19
@@ -112,16 +127,18 @@ msgid ""
 "Giant dragonflies are living relics of ancient ages, when insectoids ruled "
 "the land, just a shadow of their former greatness"
 msgstr ""
+"Велетенські бабки - це живі реліквії древніх віків, коли інсектоїди "
+"управляли землею, тільки тінь їх колишньої величі"
 
 #. [attack]: type=blade
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:50
 msgid "mandibles"
-msgstr ""
+msgstr "нижні щелепи"
 
 #. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:4
 msgid "Giant Mosquito"
-msgstr ""
+msgstr "Гігантський москіт"
 
 #. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:21
@@ -129,18 +146,20 @@ msgid ""
 "Some mosquitos in these tropical swamps grow to giant sizes and may be quite "
 "dangerous for weak units if there are too many of them."
 msgstr ""
+"Деякі москіти в цих тропічних болотах доростають до велетенських розмірів і "
+"можуть бути дуже небезпечні для слабких бійців, якщо їх є занадто багато."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:52
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:47
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:46
 msgid "proboscis"
-msgstr ""
+msgstr "хоботок"
 
 #. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:4
 msgid "Plague Mosquito"
-msgstr ""
+msgstr "Чумний москіт"
 
 #. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:19
@@ -150,16 +169,20 @@ msgid ""
 "tropical swamps. Infection they carry is very hard to cure and can turn its "
 "victim into a walking mindless body in a matter of few days."
 msgstr ""
+"Коли отруйні москіти п'ють кров заражених тварин, вони перетворюються на "
+"чумних москітів, напевне найгірше, з чим ви можете зіткнутися в тропічних "
+"болотах. Інфекцію, яку вони розносять, дуже важко вилікувати, і вона може "
+"перетворити свою жертву на тупого ходячого трупа в лічені дні."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:61
 msgid "infected spike"
-msgstr ""
+msgstr "інфікований шип"
 
 #. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:4
 msgid "Venom Mosquito"
-msgstr ""
+msgstr "Отруйний москіт"
 
 #. [unit_type]: id=saurrian mosquito_poison, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:18
@@ -169,21 +192,25 @@ msgid ""
 "learned to shoot chitinous spikes throught their proboscises. They can "
 "either poison their victims, or drink blood of them."
 msgstr ""
+"Ці отруйні москіти є лихом для тих, хто наважиться увійти в їх болота. "
+"Насправді вони не москіти, але дуже на них подібні комахи, навчені стріляти "
+"хітиновими шипами через їх хоботки. Вони можуть отруювати своїх жертв, або "
+"пити з них кров."
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:59
 msgid "venom injection"
-msgstr ""
+msgstr " ін'єкція отрути"
 
 #. [attack]: type=pierce
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:72
 msgid "venom spike"
-msgstr ""
+msgstr "отруйний шип"
 
 #. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:4
 msgid "Dire Shessinsaan"
-msgstr ""
+msgstr "Жахливий шіссінсаан"
 
 #. [unit_type]: id=saurrian shessinsaan_dire, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:30
@@ -191,49 +218,51 @@ msgid ""
 "Shessinsaans are alien semi-sentient predatory reptiles with tentacles. As "
 "shessinsaans grow older, they became stronger and even more terrifying."
 msgstr ""
+"Шіссінсаани - це чужі напіврозумні хижі рептилії з щупальцями. Коли "
+"шіссінсаани ростуть, вони стають сильнішими і навіть більш жахливими."
 
 #. [attack]: type=impact
 #: Age_of_Tentacles/units/Shessinsaans/Dire_Shessinsaan.cfg:53
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:52
 msgid "tentacle"
-msgstr ""
+msgstr "щупальце"
 
 #. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:4
 msgid "Shessinsaan"
-msgstr ""
+msgstr "Шіссінсаан"
 
 #. [unit_type]: id=saurrian shessinsaan_fighter, race=saurrian shessinsaan
 #: Age_of_Tentacles/units/Shessinsaans/Shessinsaan.cfg:29
 msgid "Shessinsaans are alien semi-sentient predatory reptiles with tentacles."
-msgstr ""
+msgstr "Шіссінсаани - це чужі напіврозумні хижі рептилії з щупальцями."
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:5
 msgid "race^Shessinsaan"
-msgstr ""
+msgstr "Шіссінсаан"
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:6
 msgid "race+female^Shessinsaan"
-msgstr ""
+msgstr "Шіссінсаанка"
 
 #. [race]: id=saurrian shessinsaan
 #: Age_of_Tentacles/units/units.cfg:7
 msgid "race+plural^Shessinsaans"
-msgstr ""
+msgstr "Шіссінсаани"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:15
 msgid "race^Insectoid"
-msgstr ""
+msgstr "Інсектоїд"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:16
 msgid "race+female^Insectoid"
-msgstr ""
+msgstr "Інсектоїдка"
 
 #. [race]: id=saurrian insectoids
 #: Age_of_Tentacles/units/units.cfg:17
 msgid "race+plural^Insectoids"
-msgstr ""
+msgstr "Інсектоїди"
