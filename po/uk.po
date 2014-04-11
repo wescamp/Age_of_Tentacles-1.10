@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Age_of_Tentacles-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-08 20:07-0400\n"
+"POT-Creation-Date: 2014-04-11 14:16+0200\n"
 "PO-Revision-Date: 2012-11-01 11:59+0200\n"
 "Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
 "Language-Team: none\n"
@@ -73,11 +73,12 @@ msgstr "Інфекція"
 
 #. [plague]: id=infection, type={INFECTION_RESULT}
 #: Age_of_Tentacles/macros/abilities.cfg:149
+#, fuzzy
 msgid ""
 "Infection:\n"
 "This attack infects living targets. Infected units lose 8 HP every turn "
 "until the plague destroy their mind and body, turning them into walking "
-"mindless bodies."
+"mindless corpses."
 msgstr ""
 "Інфекція:\n"
 "Ця атака інфікує живі цілі. Інфіковані бійці втрачають 8 ЗД кожного ходу, "
@@ -116,6 +117,43 @@ msgstr ""
 " Бійці, інфіковані цим бійцем, будуть безупинно отримувати ушкодження поки "
 "вони не втратять усе здоров'я, і тоді перетворяться на ходячих трупів."
 
+#. [unit_type]: id=saurrian myriapod_armored, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Armored_Myriapod.cfg:4
+msgid "Armored Centipede"
+msgstr ""
+
+#. [unit_type]: id=saurrian myriapod_armored, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Armored_Myriapod.cfg:19
+msgid "Some centipedes grow immense chitinous armor."
+msgstr ""
+
+#. [attack]: type=blade
+#: Age_of_Tentacles/units/Insectoids/Armored_Myriapod.cfg:37
+#: Age_of_Tentacles/units/Insectoids/Electric_Myriapod.cfg:32
+#: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:50
+#: Age_of_Tentacles/units/Insectoids/Giant_Myriapod.cfg:32
+msgid "mandibles"
+msgstr "нижні щелепи"
+
+#. [attack]: type=fire
+#: Age_of_Tentacles/units/Insectoids/Armored_Myriapod.cfg:47
+#: Age_of_Tentacles/units/Insectoids/Electric_Myriapod.cfg:42
+#: Age_of_Tentacles/units/Insectoids/Giant_Myriapod.cfg:42
+msgid "electrical discharge"
+msgstr ""
+
+#. [unit_type]: id=saurrian myriapod_electric, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Electric_Myriapod.cfg:4
+msgid "Electric Centipede"
+msgstr ""
+
+#. [unit_type]: id=saurrian myriapod_electric, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Electric_Myriapod.cfg:19
+msgid ""
+"Some giant centipedes can use their electrical power more efficiently than "
+"others."
+msgstr ""
+
 #. [unit_type]: id=saurrian dragonfly, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:4
 msgid "Giant Dragonfly"
@@ -129,11 +167,6 @@ msgid ""
 msgstr ""
 "Велетенські бабки - це живі реліквії древніх віків, коли інсектоїди "
 "управляли землею, тільки тінь їх колишньої величі"
-
-#. [attack]: type=blade
-#: Age_of_Tentacles/units/Insectoids/Giant_Dragonfly.cfg:50
-msgid "mandibles"
-msgstr "нижні щелепи"
 
 #. [unit_type]: id=saurrian mosquito_giant, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Giant_Mosquito.cfg:4
@@ -155,6 +188,18 @@ msgstr ""
 #: Age_of_Tentacles/units/Insectoids/Poison_Mosquito.cfg:46
 msgid "proboscis"
 msgstr "хоботок"
+
+#. [unit_type]: id=saurrian myriapod, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Giant_Myriapod.cfg:4
+msgid "Giant Centipede"
+msgstr ""
+
+#. [unit_type]: id=saurrian myriapod, race=saurrian insectoids
+#: Age_of_Tentacles/units/Insectoids/Giant_Myriapod.cfg:19
+msgid ""
+"This centipedes evolved to take advantage of their ability to chok their "
+"enemies with their inner electricity"
+msgstr ""
 
 #. [unit_type]: id=saurrian mosquito_plague, race=saurrian insectoids
 #: Age_of_Tentacles/units/Insectoids/Plague_Mosquito.cfg:4
@@ -253,16 +298,16 @@ msgid "race+plural^Shessinsaans"
 msgstr "Шіссінсаани"
 
 #. [race]: id=saurrian insectoids
-#: Age_of_Tentacles/units/units.cfg:15
+#: Age_of_Tentacles/units/units.cfg:16
 msgid "race^Insectoid"
 msgstr "Інсектоїд"
 
 #. [race]: id=saurrian insectoids
-#: Age_of_Tentacles/units/units.cfg:16
+#: Age_of_Tentacles/units/units.cfg:17
 msgid "race+female^Insectoid"
 msgstr "Інсектоїдка"
 
 #. [race]: id=saurrian insectoids
-#: Age_of_Tentacles/units/units.cfg:17
+#: Age_of_Tentacles/units/units.cfg:18
 msgid "race+plural^Insectoids"
 msgstr "Інсектоїди"
