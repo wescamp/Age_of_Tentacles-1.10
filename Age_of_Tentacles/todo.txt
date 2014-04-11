@@ -1,11 +1,15 @@
-What's missing in 0.3.0
+What's missing in 0.5.x
 
-* Standing animation for chameleons possibly needs to be fixed
 * Units are possibly overpowered or underpowered
 * Too much transparency when chameleon ability is active
 * WML errors in game log, sometimes ability's glichy
 
-* Sounds to dragonflies and mosquito melee attacks
 * Ability to cure infection needs to be added sometime
-* Era should be turned into campaign and scenarios should be added.
+* Custom names possibly need to be merged
 
+add to next versions:
+
+* Poison/plague sound fix
+* Translation
+* Insect melee attack sounds
+* Make use of different gender

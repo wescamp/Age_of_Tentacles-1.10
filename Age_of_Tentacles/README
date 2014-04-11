@@ -1,6 +1,6 @@
 This addon adds some units into Battle for Wesnoth (tested with 1.10).
 
-Currently contains Plague Mosquitos, Giant Mosquitos, Venom Mosquitos, Giant Dragonflies, Shessinsaans and Dire Shessisaans.
+Currently contains Plague Mosquitos, Giant Mosquitos, Venom Mosquitos, Giant Dragonflies, 3 types of centipedes, Shessinsaans and Dire Shessisaans.
 
 INSTALLATION
 
@@ -8,6 +8,14 @@ Unpack archive into Wesnoth add-ons directory
 for 1.10 series it is ~/.local/share/wesnoth/1.10/data/add-ons
 
 CHANGELOG
+
+0.5.6, 0.5.7, 0.5.8 minor bugfixes
+
+0.5.5 zombies made by plague mosquitos could not move on same turn anymore
+
+0.5.1, 0.5.2, 0.5.3, 0.5.4 added two more centipedes and various fixes including animaion of giant mosquitos
+
+0.5.0 added giant centipedes
 
 0.4.2 few bugfixes
 
